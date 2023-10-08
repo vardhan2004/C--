@@ -62,8 +62,10 @@ int main(){
     //     cout << (B[i]) << " ";
     // }
     vector<int>C =  res(A,B);
-    for(int i = 0; i<C.size(); i++){
-        cout << "  " << C[i];
-   }
+//     for(int i = 0; i<C.size(); i++){
+//         cout << "  " << C[i];
+//    }
+    cout << C;
+
    return 0;
 }

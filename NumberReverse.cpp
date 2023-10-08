@@ -13,6 +13,5 @@ int main(){
         sum = sum*10 + rem;
         n = n / 10;
     }
-    
     cout << "Reverse of a Given  Number is:" << " " << sum;
 }

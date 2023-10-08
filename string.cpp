@@ -6,7 +6,9 @@ int main(){
     string  a;
     cout << "enter a string :";
     getline(cin, a);
-    cout << a << endl;
-    cout << a.length();
+    a.to_upperCase();
+
+    cout << a;
+
 
 }
